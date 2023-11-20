@@ -2,6 +2,7 @@ import React, { useEffect, useLayoutEffect, useRef } from "react";
 import gsap from "gsap";
 
 const Preloader = () => {
+  // referecen variables
   const container = useRef(null);
   const counter = useRef(null);
 
