@@ -4,7 +4,7 @@ import gsap from "gsap";
 const Preloader = () => {
   // referecen variables
   const container = useRef(null);
-  const counter = useRef(null);
+  // const counter = useRef(null);
 
   useLayoutEffect(() => {
     let context = gsap.context(() => {
