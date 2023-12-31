@@ -3,8 +3,10 @@ import Preloader from "./components/Preloader";
 
 function App() {
   return (
-    <div className="relative h-screen overflow-hidden border-2 border-purple-500 bg-[#030712]">
-      <Preloader />
+    <div className="h-screen overflow-hidden border-2 border-purple-500 bg-[#030712]">
+      <div className="relative h-screen overflow-hidden">
+        <Preloader />
+      </div>
     </div>
   );
 }
