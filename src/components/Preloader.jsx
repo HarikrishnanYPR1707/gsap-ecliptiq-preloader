@@ -3,7 +3,7 @@ import gsap from "gsap";
 
 const Preloader = () => {
   const container = useRef(null);
-  // const counter = useRef(null);
+  const counter = useRef(null);
 
   useLayoutEffect(() => {
     let context = gsap.context(() => {
