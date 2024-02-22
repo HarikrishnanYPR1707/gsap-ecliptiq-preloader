@@ -1,17 +1,10 @@
 import "./App.css";
+import Preloader from "./components/Preloader";
 
 function App() {
   return (
-    <div className="font-black text-3xl underline">
-      <p className="font-spaceGrotesk">
-        Vite + TailwindCSS Template, with 3 fonts
-      </p>
-      <p className="font-familjenGrotesk">
-        Vite + TailwindCSS Template, with 3 fonts
-      </p>
-      <p className="font-spaceMono">
-        Vite + TailwindCSS Template, with 3 fonts
-      </p>
+    <div className="relative h-screen overflow-hidden border-2 border-purple-500 bg-[#030712]">
+      <Preloader />
     </div>
   );
 }
