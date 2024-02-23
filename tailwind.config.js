@@ -7,6 +7,7 @@ export default {
         familjenGrotesk: ["Familjen Grotesk", "sans-serif"],
         spaceGrotesk: ["Space Grotesk", "sans-serif"],
         spaceMono: ["Space Mono", "monospace"],
+        honk: ["Honk", "system-ui"],
       },
     },
   },
