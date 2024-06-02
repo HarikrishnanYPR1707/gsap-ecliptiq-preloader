@@ -30,6 +30,7 @@ const Preloader = () => {
     return () => context.revert();
   }, []);
 
+  // counter logic
   // useEffect(() => {
   //   const startLoader = () => {
   //     let currentValue = 0;
