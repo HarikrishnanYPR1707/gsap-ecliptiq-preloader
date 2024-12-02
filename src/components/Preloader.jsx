@@ -76,6 +76,7 @@ const Preloader = () => {
         </p>
         <div id="progressBar" className="h-[2px] w-full bg-purple-500"></div>
       </div>
+      {/* counter part */}
       {/* <p
         ref={counter}
         className="absolute bottom-20 right-20 text-7xl font-black uppercase text-white"
